@@ -45,3 +45,19 @@ The following example it is not allowed.
 If i have more time that was a thing that I would like to change to accept a full hierarchy. Maybe using a defined object not dynamic like that.
 
 And the last one is the delete endpoint, you can pass a father name and all children will be deleted.
+
+One thing that I would like to chante is the return object, insted of return a dynamic object i prefer to return a defined object, a DTO in this case, with difined filds. Something like
+
+```
+[
+  {
+    "Name":"string",
+    "Chidren" : 
+    [
+      {
+        "Name": "string"
+      }
+    ]
+  }
+]
+```
