@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CategoryManager.Dependencies\CategoryManager.Dependencies.csproj" />
+    <ProjectReference Include="..\CategoryManager.Repository\CategoryManager.Repository.csproj" />
+    <ProjectReference Include="..\CategoryManager.Service\CategoryManager.Service.csproj" />
+  </ItemGroup>
+
+</Project>
