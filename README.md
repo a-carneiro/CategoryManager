@@ -46,7 +46,8 @@ If i have more time that was a thing that I would like to change to accept a ful
 
 And the last one is the delete endpoint, you can pass a father name and all children will be deleted.
 
-One thing that I would like to chante is the return object, insted of return a dynamic object i prefer to return a defined object, a DTO in this case, with difined filds. Something like
+#
+One thing that I would like to change is the return object, instead of return a dynamic object i prefer to return a defined object with defined fields, a DTO in this case. Something like this
 
 ```
 [
